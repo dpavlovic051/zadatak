@@ -54,6 +54,12 @@ defineOptions({
 })
 
 const linksList = [
+{
+    title: 'UnosPage',
+    caption: 'quasar.dev',
+    icon: 'page',
+    link: 'https://quasar.dev'
+  },
   {
     title: 'Docs',
     caption: 'quasar.dev',
