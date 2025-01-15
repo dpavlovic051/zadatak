@@ -5,6 +5,7 @@ const routes = [
     children: [
       { path: '', component: () => import('pages/IndexPage.vue') }
     ]
+
   },
 
   // Always leave this as last one,
@@ -12,7 +13,11 @@ const routes = [
   {
     path: '/:catchAll(.*)*',
     component: () => import('pages/ErrorNotFound.vue')
-  }
+  },
+  {
+    path: '/unos',
+    component: UnosPage
+  },
 ]
 
 export default routes
